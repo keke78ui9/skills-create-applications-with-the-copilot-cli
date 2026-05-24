@@ -78,7 +78,7 @@ function printUsage() {
   console.log('  addition/add/+ <left> <right>');
   console.log('  subtraction/subtract/- <left> <right>');
   console.log('  multiplication/multiply/* <left> <right>');
-  console.log('  division/divide or / <left> <right>');
+  console.log('  division/divide// <left> <right>');
   console.log('  modulo/mod/% <left> <right>');
   console.log('  power/^ <left> <right>');
   console.log('  squareRoot/sqrt <value>');

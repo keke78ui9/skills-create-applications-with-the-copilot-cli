@@ -15,6 +15,14 @@ test('power returns base raised to exponent', () => {
   assert.equal(power(2, 4), 16);
 });
 
+test('power supports negative exponents', () => {
+  assert.equal(power(2, -2), 0.25);
+});
+
+test('power with zero exponent returns one', () => {
+  assert.equal(power(5, 0), 1);
+});
+
 test('squareRoot returns square root of non-negative number', () => {
   assert.equal(squareRoot(81), 9);
 });
